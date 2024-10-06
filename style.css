@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+html{
+    overflow-x: hidden;
+}
+body{
+    background: linear-gradient(45deg, #101d2d, #1c2127 90%);
+    overflow: hidden;
+}
+nav{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 100px;
+    z-index: 111;
+}
+nav .logo{
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin: auto 2px;
+}
+a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #fff; 
+    font-weight: 400;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+li:hover a{
+    background: #fff;
+    color: #000;
+}
+.parallax_section{
+    position: relative;
+    min-height: calc(100vh - 60px);
+}
+#heading{
+    position: relative;
+    top: 40px;
+    text-align: center;
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: 7px;
+    color: #fff;
+    text-shadow: 0 0 15px rgb(0, 0, 0, 0.8);
+}
+img{
+    position: absolute;
+    width: 100%;
+}
+#moon{
+    left: 230px;
+    top: -570px;
+    scale: .15;
+}
+#cloud1{
+    position: fixed;
+    left: -400px;
+    top: -100px;
+    scale: 0.6;
+}
+#base{
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+#base_grass{
+    top: 20%;
+    filter: brightness(0);
+}
+.text_section{
+    position: relative;
+    background: #000;
+    color: #fff;
+    padding: 50px 120px;
+    top: -50%;
+}
+.text_section h1{
+    font-size: 4em;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.text_section p{
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
